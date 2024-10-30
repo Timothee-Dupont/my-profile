@@ -1,0 +1,120 @@
+body{
+	background-color: #E9EFEC;
+	color: #444444;
+	font-family: 'Noto', sans-serif;
+	font-size: 16px;
+}
+
+h1{
+	color: #0F0F0E;
+	font-family: "Merriweather", serif;
+	font-size: 40px;
+	font-weight: 1000;
+}
+
+h2{
+	color: #444444;
+	font-family: "Merriweather", serif;
+	font-size: 24px;
+	font-weight: 1000;
+}
+
+a{
+	text-decoration: none;
+	color: #87A2FF;
+	font-weisght: bolder;
+}
+a:hover{
+	color: gray;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+}
+
+.intro-margin{
+	text-align: center;
+	margin: 30px 0;
+}
+
+#introduction p {
+	margin-bottom: 40px
+}
+
+.profile-circle{
+	width: 250px;
+	height: auto;
+	border-radius: 50%;
+}
+.intro-bigger{
+	font-size: 20px;
+}
+.link-tiner{
+	font-size: 16px;
+}
+
+div{
+	background-color: white;
+	padding: 30px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.core-center{
+	background: #E9EFEC;
+	width: 700px;
+	margin: 40px auto;
+	box-shadow: 0 0px 0px;
+}
+
+@media (max-width: 750px){
+	.core-center{
+		width: 500px;
+	}
+}
+@media (max-width: 550px){
+	.core-center{
+		width: 400px;
+	}
+}
+.core-margin{
+	margin-bottom: 10px
+}
+
+.btn-blue{
+	background-color: #87A2FF;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-center{
+	list-style-position: inside;
+	padding-left: 0;
+}
+.list-center li{
+	padding-left: 10px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li{
+	display: inline;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+	color: black;
+}
